@@ -174,4 +174,4 @@ if __name__ == "__main__":
         "x-csrf-token": get_token_from_login_response(login_response),
     }
 
-    # create_timecard_entry(dates, headers, login_response, args.project)
+    create_timecard_entry(dates, headers, login_response, args.project)
